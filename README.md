@@ -5,6 +5,7 @@ A group project from CIS 2250 where we created a Python project that worked with
 
 The data that we downloaded can be found here: https://www150.statcan.gc.ca/n1/en/type/data?MM=1#tables
 
+In this readme, we refer to 14100328.csv. This was our file with the data from Statistics Canada. It's far too big to upload to Github.
 The data sources and files that will be required for these questions will be the statistics on employment data from across the country, from Statistics Canada.
 Within that data source, all files can be used for this question as they all involve vacancies changing over a period of time, but a specific example is the 1410032803-databaseLoadingData.csv file. The fields in these files that will be required for this question are “REF_DATE”, “GEO” and “VALUE”.
 
@@ -18,8 +19,11 @@ The data we used for this program will be found in the 14100328.csv file. We wil
 **Programs That Need to Be Run**
 
 The first program that will need to be run is makeTestData.py. This program will split the original 14100328.csv file up by region. (This program only needs to be run once) This is the command format:
+
 makeTestData.py <job data file name> <prefix of output files>
+
 After that, Q2DataProcessing.py should be run to create the csv file containing the values for number of vacancies, the ending year/quarter values, province and job category. The command line format will be:
+
 Q2DataProcessing.py <data file prefix> <\"region\"> <\"national occupation classification\"> <end year-quarter> <output file>
 
 Notes: The data file prefix should be the same as the second argument of makeTestData.py. Also, the national occupation classification must be a complete string including the name and id (e.g "Health occupations [3]"), and observe the quotation marks around the region as well (e.g “Ontario”).
