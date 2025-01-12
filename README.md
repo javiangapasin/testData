@@ -4,6 +4,7 @@ A group project from CIS 2250 where we created a Python project that worked with
 **PLEASE NOTE**: For this project, we required many large files from Statistics Canada.
 
 The data that we downloaded can be found here: https://www150.statcan.gc.ca/n1/en/type/data?MM=1#tables
+
 The data sources and files that will be required for these questions will be the statistics on employment data from across the country, from Statistics Canada.
 Within that data source, all files can be used for this question as they all involve vacancies changing over a period of time, but a specific example is the 1410032803-databaseLoadingData.csv file. The fields in these files that will be required for this question are “REF_DATE”, “GEO” and “VALUE”.
 
